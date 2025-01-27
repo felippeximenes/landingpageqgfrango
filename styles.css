@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 
 :root {
-  --primary-color: #fc7f09;
+  --primary-color: #A4342B;
   --primary-color-light: #fffcfa;
   --primary-color-dark: #db6e09;
   --text-dark: #18181b;
@@ -14,6 +14,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: #ffffff;
 }
 
 .section__container {
@@ -44,7 +45,7 @@
   white-space: nowrap;
   font-size: 1rem;
   color: var(--white);
-  background-color: var(--primary-color);
+  background-color: #A4342B;
   border-radius: 10px;
   transition: 0.3s;
   cursor: pointer;
@@ -169,7 +170,7 @@ nav {
 }
 
 .header__content h1 span {
-  color: var(--primary-color);
+  color: #A4342B;
 }
 
 .header__content .section__description {
@@ -250,7 +251,7 @@ nav {
 .explore__image img {
   max-width: 400px;
   margin-inline: auto;
-  filter: drop-shadow(0 0 50px rgba(252, 127, 9, 0.4));
+  filter: drop-shadow(0 0 50px rgba(99, 98, 98, 0.4));
 }
 
 .explore__content .section__description {
